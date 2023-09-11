@@ -1,0 +1,21 @@
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-1 {
+    margin-right: 24px;
+    background-color: #ddd;
+}
+
+.btn-2 {
+    background-color: #62E5C5;
+    color: white;
+}
+
+
+.btn {
+    padding: 12px 32px;
+    border-radius: 4px;
+    border: none;
+}

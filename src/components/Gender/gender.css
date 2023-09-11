@@ -1,0 +1,27 @@
+.gender-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.gender-title {
+    margin-right: 40px;
+}
+
+.gender-btn-container {
+    display: flex;
+}
+
+.gender-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+.gender-btn-container-text {}
+
+.gender-singlebtn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+}

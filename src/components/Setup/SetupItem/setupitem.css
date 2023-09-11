@@ -1,0 +1,16 @@
+.setup-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.setup-item-title {
+    margin-right: 40px;
+}
+
+.setup-item-input {
+    border-radius: 4px;
+    padding: 8px;
+    flex: 1;
+}

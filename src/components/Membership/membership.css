@@ -1,0 +1,35 @@
+.membership-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+
+.mambership-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+
+}
+
+.membership-title {
+    margin-right: 40px
+}
+
+.membership-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.membership-icon {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.membership-action-text {
+    margin-left: 4px;
+}
