@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./membership.css"
+import { BsFillCreditCardFill } from "react-icons/bs";
 export class Membership extends Component {
     render() {
         return (
@@ -7,15 +8,15 @@ export class Membership extends Component {
                 <span className="membership-title">Membership</span>
                 <div className="mambership-action-container">
                     <div className="membership-type">
-                        <span className="membership-icon">N</span>
+                        <button className="membership-icon"><BsFillCreditCardFill /></button>
                         <span className="membership-action-text">Classic</span>
                     </div>
                     <div className="membership-type">
-                        <span className="membership-icon">N</span>
+                        <button className="membership-icon"><BsFillCreditCardFill /></button>
                         <span className="membership-action-text">Silver</span>
                     </div>
                     <div className="membership-type">
-                        <span className="membership-icon">N</span>
+                        <button className="membership-icon"><BsFillCreditCardFill /></button>
                         <span className="membership-action-text">Gold</span>
                     </div>
                 </div>

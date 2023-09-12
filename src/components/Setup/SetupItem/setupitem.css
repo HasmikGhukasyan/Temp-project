@@ -11,6 +11,12 @@
 
 .setup-item-input {
     border-radius: 4px;
-    padding: 8px;
+    padding: 10px;
     flex: 1;
+    max-width: 204px;
+    background-color: #F6F7F9;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
 }

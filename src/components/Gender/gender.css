@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 24px;
+    justify-content: space-between;
 }
 
 .gender-title {
@@ -10,14 +11,24 @@
 
 .gender-btn-container {
     display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    flex: 1;
+    max-width: 224px;
 }
 
 .gender-icon {
     align-items: center;
     justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #353A34;
 }
 
-.gender-btn-container-text {}
+.gender-btn-container-text {
+    margin-left: 16px;
+    text-align: center;
+}
 
 .gender-singlebtn-container {
     display: flex;

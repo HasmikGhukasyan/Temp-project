@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 48px;
+    justify-content: space-between;
 
 }
 
@@ -9,7 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: wrap;
+    flex: 1;
+    max-width: 204px;
 
 }
 
@@ -21,15 +23,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 12px;
+    margin-right: 22px;
 }
 
 .membership-icon {
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    color: #353A34;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 18px;
+    background-color: none;
 
 }
 
 .membership-action-text {
-    margin-left: 4px;
+    margin-left: 8px;
+    font-size: 12px;
+
 }
