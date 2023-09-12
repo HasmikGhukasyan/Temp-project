@@ -36,11 +36,11 @@
     font-size: 32px;
     color: #353A34;
     cursor: pointer;
-    transform: scale(1.1);
+    box-sizing: border-box;
 }
 
 .arrow-icon:hover {
-    font-size: 38px;
+    transform: scale(1.25);
 }
 
 .entry-tytle {
